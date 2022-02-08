@@ -64,7 +64,9 @@ function Skills() {
                   <progress value={amount} max="100" />
                   <span>{name}</span>
                 </div>
-                <h3>{amount}m</h3>
+                <h3>
+                  <span>{amount}</span>m
+                </h3>
               </motion.div>
             );
           })}
@@ -211,7 +213,6 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    min-height: 100vh;
     overflow-x: hidden;
     padding: 2rem 0;
     .background {
@@ -220,38 +221,41 @@ const Section = styled.section`
     .skills__title {
       padding: 2rem;
       text-align: center;
-      margin-bottom: 4rem;
       h2 {
         font-size: 1.5rem;
       }
     }
     .skills {
       padding: 0;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       gap: 1rem;
-
       &__bars {
         padding: 0.2rem;
-        width: 100%;
+        gap: 6rem;
         align-items: center;
         justify-content: center;
+        background: green;
 
+        h3 {
+          font-size: 1rem;
+        }
         &__bar {
           .container {
-            gap: 0.5rem;
-
+            gap: 1rem;
             progress {
-              width: 100%;
+              width: 12rem;
               height: 0.5rem;
+
               &::-webkit-progress-bar {
                 height: 0.3rem;
               }
             }
           }
-          h3 {
+          /* h3 {
             font-size: 1rem;
-          }
+          } */
         }
       }
       &__content {
