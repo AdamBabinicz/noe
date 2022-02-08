@@ -230,9 +230,11 @@ const Section = styled.section`
       align-items: center;
       justify-content: center;
       gap: 1rem;
+      background: green;
       &__bars {
         padding: 0.2rem;
         gap: 8rem;
+        background: red;
         align-items: center;
         justify-content: center;
 
