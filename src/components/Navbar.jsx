@@ -120,7 +120,7 @@ const Nav = styled(motion.nav)`
       .toggle {
         padding-right: 1rem;
         display: block;
-        z-index: 1;
+        z-index: 10;
 
         svg {
           font-size: 2rem;
