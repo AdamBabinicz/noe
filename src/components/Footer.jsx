@@ -34,7 +34,7 @@ function Footer() {
         <ul>
           <li>
             <a
-              href="https://pl-pl.facebook.com/pages/category/Community/GLOGIER-MACIEJ-SENATOR-II-RP-208892955826606"
+              href="https://www.facebook.com/groups/biblia.chrzescijanstwo"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -43,7 +43,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="http://twitter.com"
+              href="https://twitter.com/biblia_hist"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -52,7 +52,7 @@ function Footer() {
           </li>
           <li>
             <a
-              href="https://www.youtube.com/watch?v=mRCNRh87k-g&t=16s"
+              href="https://www.youtube.com/watch?v=Y1N1aJ3bTto"
               target="_blank"
               rel="noopener noreferrer"
             >
