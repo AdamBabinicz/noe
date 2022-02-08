@@ -229,7 +229,7 @@ const Section = styled.section`
       padding: 0;
       align-items: center;
       justify-content: center;
-      /* gap: 1rem; */
+      gap: 1rem;
 
       &__bars {
         padding: 0.2rem;
@@ -239,10 +239,10 @@ const Section = styled.section`
 
         &__bar {
           .container {
-            /* gap: 0.5rem; */
+            gap: 0.5rem;
 
             progress {
-              width: 12rem;
+              width: 100%;
               height: 0.5rem;
               &::-webkit-progress-bar {
                 height: 0.3rem;
