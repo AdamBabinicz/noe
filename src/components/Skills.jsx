@@ -234,14 +234,12 @@ const Section = styled.section`
       &__bars {
         padding: 0.2rem;
         width: 100%;
-        min-height: 200px;
-        background: red;
         align-items: center;
         justify-content: center;
 
         &__bar {
           .container {
-            gap: 0.5rem;
+            /* gap: 0.5rem; */
 
             progress {
               width: 12rem;
