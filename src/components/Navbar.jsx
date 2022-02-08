@@ -138,7 +138,7 @@ const Nav = styled(motion.nav)`
       right: 0;
       width: ${({ state }) => (state ? "60%" : "0%")};
       height: 100vh;
-      background: #000;
+      background: #02213a;
       opacity: 0;
       visibility: hidden;
       transition: 0.4s ease-in-out;
