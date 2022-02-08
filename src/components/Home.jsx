@@ -123,7 +123,7 @@ const Section = styled.section`
         margin-bottom: 2rem;
 
         img {
-          margin: 0 auto;
+          border: none;
         }
 
         .title {
