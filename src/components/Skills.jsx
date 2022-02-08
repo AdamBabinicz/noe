@@ -41,8 +41,8 @@ function Skills() {
         <img src={skills2} alt="skills design" className="design2" />
       </div>
       <div className="skills__title">
-        <p>Budowa</p>
-        <h2>Arki</h2>
+        <p>Jak wyglądała</p>
+        <h2>Arka?</h2>
       </div>
       <div className="skills">
         <div className="skills__bars">
@@ -232,7 +232,7 @@ const Section = styled.section`
       gap: 1rem;
       &__bars {
         padding: 0.2rem;
-        gap: 3rem;
+        gap: 8rem;
         align-items: center;
         justify-content: center;
 
@@ -241,8 +241,7 @@ const Section = styled.section`
             gap: 0.5rem;
 
             progress {
-              max-width: 12rem;
-              width: 100%;
+              width: 12rem;
               height: 0.5rem;
               &::-webkit-progress-bar {
                 height: 0.3rem;
