@@ -241,7 +241,8 @@ const Section = styled.section`
             gap: 0.5rem;
 
             progress {
-              width: 8rem;
+              max-width: 12rem;
+              width: 100%;
               height: 0.5rem;
               &::-webkit-progress-bar {
                 height: 0.3rem;
