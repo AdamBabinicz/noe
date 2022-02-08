@@ -211,7 +211,7 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
     padding: 2rem 0;
     .background {
@@ -227,7 +227,6 @@ const Section = styled.section`
     }
     .skills {
       padding: 0;
-      /* flex-direction: column; */
       align-items: center;
       justify-content: center;
       gap: 1rem;
@@ -242,7 +241,7 @@ const Section = styled.section`
             gap: 0.5rem;
 
             progress {
-              width: 12rem;
+              width: 8rem;
               height: 0.5rem;
               &::-webkit-progress-bar {
                 height: 0.3rem;
