@@ -121,6 +121,10 @@ const Nav = styled(motion.nav)`
         padding-right: 1rem;
         display: block;
         z-index: 1;
+
+        svg {
+          font-size: 2rem;
+        }
       }
     }
     .show {
@@ -134,15 +138,20 @@ const Nav = styled(motion.nav)`
       right: 0;
       width: ${({ state }) => (state ? "60%" : "0%")};
       height: 100vh;
-      background-color: var(--secondary-color);
+      background: var(--secondary-color);
       opacity: 0;
       visibility: hidden;
       transition: 0.4s ease-in-out;
+      z-index: 1;
       ul {
         flex-direction: column;
         text-align: center;
         height: 100%;
         justify-content: center;
+
+        li {
+          margin-bottom: 1.5rem;
+        }
       }
     }
   }
