@@ -233,10 +233,9 @@ const Section = styled.section`
       gap: 1rem;
       &__bars {
         padding: 0.2rem;
-        gap: 80px;
+        margin: 0.2rem;
         align-items: center;
         justify-content: center;
-        background: green;
 
         h3 {
           font-size: 1rem;
