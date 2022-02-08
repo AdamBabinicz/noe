@@ -233,7 +233,7 @@ const Section = styled.section`
       gap: 1rem;
       &__bars {
         padding: 0.2rem;
-        gap: 6rem;
+        gap: 80px;
         align-items: center;
         justify-content: center;
         background: green;
