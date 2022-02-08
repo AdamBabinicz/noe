@@ -138,7 +138,7 @@ const Nav = styled(motion.nav)`
       right: 0;
       width: ${({ state }) => (state ? "60%" : "0%")};
       height: 100vh;
-      background: var(--secondary-color);
+      background: #000;
       opacity: 0;
       visibility: hidden;
       transition: 0.4s ease-in-out;
@@ -150,7 +150,7 @@ const Nav = styled(motion.nav)`
         justify-content: center;
 
         li {
-          margin-bottom: 1.5rem;
+          margin-bottom: 2.5rem;
         }
       }
     }
