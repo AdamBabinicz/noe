@@ -236,7 +236,7 @@ const Section = styled.section`
         padding: 0.2rem;
         margin: 0.2rem;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         background: orange;
         height: 30rem;
 
