@@ -238,7 +238,7 @@ const Section = styled.section`
         align-items: center;
         justify-content: space-around;
         background: orange;
-        height: 30rem;
+        height: 20rem;
 
         h3 {
           font-size: 1rem;
