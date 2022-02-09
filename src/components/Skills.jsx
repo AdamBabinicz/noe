@@ -216,7 +216,7 @@ const Section = styled.section`
     overflow-x: hidden;
     padding: 2rem 0;
     .background {
-      display: none;
+      /* display: none; */
     }
     .skills__title {
       padding: 2rem;
