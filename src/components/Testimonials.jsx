@@ -214,7 +214,7 @@ const Section = styled.section`
       .controls {
         button {
           margin-top: 5rem;
-          padding: 1rem;
+          margin-right: 1rem;
         }
       }
       .testimonials {
