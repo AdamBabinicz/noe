@@ -131,6 +131,12 @@ const Section = styled.section`
       grid-template-columns: 1fr;
       gap: 2rem;
       padding: 0 2rem;
+
+      &__service {
+        &:nth-of-type(3) {
+          background: grey;
+        }
+      }
     }
   }
 `;
