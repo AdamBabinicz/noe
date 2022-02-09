@@ -24,7 +24,7 @@ function Contact() {
       >
         <div className="contact__title">
           <p>Problematyka teologiczna</p>
-          <h2>Epilog</h2>
+          <h3>Epilog</h3>
         </div>
         <div className="contact__data">
           <div className="contact__data__description">
@@ -82,7 +82,7 @@ const Section = styled.section`
         letter-spacing: 0.2rem;
         color: var(--primary-color);
       }
-      h2 {
+      h3 {
         color: var(--secondary-color);
         font-size: 2rem;
       }
@@ -171,7 +171,7 @@ const Section = styled.section`
         p {
           font-size: 0.8rem;
         }
-        h2 {
+        h3 {
           font-size: 1.3rem;
         }
       }
