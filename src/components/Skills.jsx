@@ -216,7 +216,7 @@ const Section = styled.section`
     overflow-x: hidden;
     padding: 2rem 0;
     .background {
-      /* display: none; */
+      display: none;
     }
     .skills__title {
       padding: 2rem;
@@ -227,12 +227,11 @@ const Section = styled.section`
     }
     .skills {
       padding: 0;
-      flex-direction: column;
+      /* flex-direction: column; */
       align-items: center;
       justify-content: center;
       gap: 1rem;
       background: violet;
-      width: 100vw;
 
       &__bars {
         padding: 0.2rem;
@@ -250,7 +249,7 @@ const Section = styled.section`
             background: green;
             gap: 1rem;
             progress {
-              max-width: 12rem;
+              max-width: 25rem;
               width: 100%;
               height: 0.5rem;
 
