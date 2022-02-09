@@ -75,7 +75,7 @@ function Footer() {
 }
 
 const Foot = styled.footer`
-  background: var(--primary-color);
+  background: grey;
   color: var(--third-color);
   display: flex;
   justify-content: space-between;
