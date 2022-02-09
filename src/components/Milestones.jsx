@@ -7,6 +7,7 @@ import milestoneBackground from "../assets/12.png";
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { milestoneAnimations } from "animations";
+import img from "../assets/5.jfif";
 
 function Milestones() {
   const [element, controls] = useScroll();
@@ -109,6 +110,7 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
+    background: url(${img}) center left/cover no-repeat;
     padding: 5rem 2rem;
     min-height: 100vh;
     height: 100%;
