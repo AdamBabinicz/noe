@@ -18,6 +18,7 @@ import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
 import { portfolioAnimation } from "animations";
 import Modal from "./Portal/Modal";
+import img from "../assets/23.jpg";
 
 function Portfolio() {
   const [element, controls] = useScroll();
@@ -300,7 +301,7 @@ const Section = styled.section`
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    background: #ccc;
+    background: url(${img}) center/cover no-repeat;
     .background {
       /* display: none; */
       z-index: -1;
