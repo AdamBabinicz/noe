@@ -231,7 +231,6 @@ const Section = styled.section`
       align-items: center;
       justify-content: center;
       gap: 1rem;
-      background: violet;
 
       &__bars {
         padding: 0.2rem;
@@ -239,6 +238,7 @@ const Section = styled.section`
         align-items: center;
         justify-content: center;
         background: orange;
+        height: 30rem;
 
         h3 {
           font-size: 1rem;
@@ -249,8 +249,7 @@ const Section = styled.section`
             background: green;
             gap: 1rem;
             progress {
-              max-width: 25rem;
-              width: 100%;
+              width: 12rem;
               height: 0.5rem;
 
               &::-webkit-progress-bar {
