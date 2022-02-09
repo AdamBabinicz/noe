@@ -237,17 +237,14 @@ const Section = styled.section`
         margin: 0.2rem;
         align-items: flex-start;
         justify-content: space-around;
-        background: orange;
         height: 15rem;
 
         h3 {
           font-size: 1rem;
         }
         &__bar {
-          background: red;
           width: 100%;
           .container {
-            background: green;
             gap: 1rem;
             progress {
               width: 12rem;
