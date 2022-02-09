@@ -213,7 +213,7 @@ const Section = styled.section`
 
       .controls {
         button {
-          margin-bottom: 1rem;
+          z-index: 1;
         }
       }
       .testimonials {
