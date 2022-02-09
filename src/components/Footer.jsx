@@ -114,13 +114,14 @@ const Foot = styled.footer`
     flex-direction: column;
     text-align: center;
     gap: 1rem;
-  }
-  .footer__social__icons {
-    margin-top: 1rem;
-    justify-content: center;
 
-    ul {
-      padding: 1.5rem;
+    .footer__social__icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      ul {
+        padding: 1rem;
+      }
     }
   }
 `;
