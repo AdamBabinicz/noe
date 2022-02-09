@@ -231,17 +231,23 @@ const Section = styled.section`
       align-items: center;
       justify-content: center;
       gap: 1rem;
+      background: violet;
+
       &__bars {
-        padding: 0.2rem;
+        padding: 2rem;
         margin: 0.2rem;
         align-items: center;
         justify-content: center;
+        background: orange;
 
         h3 {
           font-size: 1rem;
         }
         &__bar {
+          background: red;
           .container {
+            background: green;
+
             gap: 1rem;
             progress {
               width: 12rem;
