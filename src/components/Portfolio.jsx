@@ -302,6 +302,7 @@ const Section = styled.section`
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     .background {
       /* display: none; */
+      z-index: -1;
     }
     .portfolio__title {
       margin: 0;
