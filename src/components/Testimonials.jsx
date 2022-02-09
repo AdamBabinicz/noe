@@ -210,6 +210,12 @@ const Section = styled.section`
     }
     .container {
       padding: 4rem 0;
+
+      .controls {
+        button {
+          margin-bottom: 1rem;
+        }
+      }
       .testimonials {
         width: 80%;
         .testimonial {
