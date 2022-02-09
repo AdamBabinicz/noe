@@ -117,6 +117,10 @@ const Foot = styled.footer`
   }
   .footer__social__icons {
     justify-content: center;
+
+    ul {
+      padding: 2rem;
+    }
   }
 `;
 
