@@ -235,16 +235,17 @@ const Section = styled.section`
       &__bars {
         padding: 0.2rem;
         margin: 0.2rem;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-around;
         background: orange;
-        height: 20rem;
+        height: 15rem;
 
         h3 {
           font-size: 1rem;
         }
         &__bar {
           background: red;
+          width: 100%;
           .container {
             background: green;
             gap: 1rem;
