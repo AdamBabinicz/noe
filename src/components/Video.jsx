@@ -84,7 +84,7 @@ const Section = styled.section`
     padding: 6rem 2rem;
     .video {
       video {
-        /* object-fit: cover; */
+        display: none;
       }
     }
   }
