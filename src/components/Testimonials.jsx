@@ -204,8 +204,9 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
+    background: red;
     .background {
-      z-index: -1;
+      display: none;
     }
     .container {
       padding: 4rem 0;
