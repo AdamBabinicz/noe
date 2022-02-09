@@ -75,6 +75,7 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
+    display: none;
     .background {
       .design1 {
         bottom: 2rem;
@@ -84,7 +85,6 @@ const Section = styled.section`
     padding: 6rem 2rem;
     .video {
       video {
-        display: none;
       }
     }
   }
