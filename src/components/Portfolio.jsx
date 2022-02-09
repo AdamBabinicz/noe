@@ -301,7 +301,7 @@ const Section = styled.section`
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    background: url(${img}) center/cover no-repeat;
+    background: url(${img}) center left/cover no-repeat;
     .background {
       /* display: none; */
       z-index: -1;
