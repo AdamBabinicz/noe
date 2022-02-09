@@ -191,14 +191,14 @@ const Section = styled.section`
       button {
         padding: 0.5rem;
         border-radius: 1rem;
-        background: var(--secondary-color);
+        background: #fff;
         border: 0.1rem solid transparent;
         cursor: pointer;
         margin-top: 2rem;
       }
       .active {
         background: transparent;
-        border: 0.1rem solid var(--secondary-color);
+        border: 0.1rem solid #fff;
       }
     }
   }
