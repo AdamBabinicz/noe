@@ -204,7 +204,7 @@ const Section = styled.section`
   }
 
   @media screen and (min-width: 280px) and (max-width: 1080px) {
-    background: red;
+    background: #ccc;
     .background {
       display: none;
     }
