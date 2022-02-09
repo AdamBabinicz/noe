@@ -116,10 +116,11 @@ const Foot = styled.footer`
     gap: 1rem;
   }
   .footer__social__icons {
+    margin-top: 1rem;
     justify-content: center;
 
     ul {
-      padding: 2rem;
+      padding: 1.5rem;
     }
   }
 `;
